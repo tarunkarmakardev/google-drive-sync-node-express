@@ -1,0 +1,38 @@
+{
+  "name": "google-drive-sync-node",
+  "scripts": {
+    "dev": "ts-node -r tsconfig-paths/register src/index.ts",
+    "build": "tsc",
+    "lint": "eslint src"
+  },
+  "bin": {
+    "gds": "./dist/index.js"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.15.0",
+    "@types/archiver": "^6.0.3",
+    "@types/express": "^5.0.0",
+    "@types/fs-extra": "^11",
+    "@types/node": "^22.10.1",
+    "eslint": "^9.15.0",
+    "globals": "^15.12.0",
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.7.2",
+    "typescript-eslint": "^8.16.0"
+  },
+  "dependencies": {
+    "@types/cli-progress": "^3.11.6",
+    "archiver": "^7.0.1",
+    "chalk": "4.1.2",
+    "cli-progress": "^3.12.0",
+    "commander": "^12.1.0",
+    "env-cmd": "^10.1.0",
+    "express": "^4.21.1",
+    "fast-folder-size": "^2.3.0",
+    "fs-extra": "^11.2.0",
+    "googleapis": "^144.0.0"
+  },
+  "packageManager": "yarn@4.5.3"
+}
